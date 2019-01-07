@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "dotenv": "^6.2.0",
-    "locus": "^2.0.1"
+    "locus": "^2.0.1",
+    "nodemon": "^1.18.9"
   }
 }

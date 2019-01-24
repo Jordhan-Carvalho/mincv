@@ -17,6 +17,9 @@ const reviewsRouter = require('./routes/reviews');
 
 const app = express();
 
+// Only used for local dev, for the .env folder    
+require('dotenv').config();
+
 // conect to database
 const urldb = process.env.DATABASEURL || "mongodb://localhost/mincv";
 mongoose.connect(urldb, {useNewUrlParser: true});
